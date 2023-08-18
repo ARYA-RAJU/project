@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .product-page {
+    background-color: #fbf9f9;
+  }
+  
+  .product-header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px;
+    margin-right: 10px;
+  }
+  
+  .product-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    background-color: rgba(98, 90, 90, 0.8); 
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-icon {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icon:hover {
+    color: #007bff;
+  }
+  
+  .product-main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details h1 {
+    margin-top: 0;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-footer {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .shop-by-category {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .shop-by-category h2 {
+    margin-bottom: 20px;
+  }
+  
+  .category-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-item {
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .category-item img {
+    max-width: 100%;
+  }
+  
+  .category-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .category-item a:hover {
+    color: #007bff;
+  }
+  
