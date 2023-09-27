@@ -1,0 +1,134 @@
+
+.admin-dash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  width: 100vw; 
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightgray;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product-card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.product-details {
+  margin-top: auto;
+}
+
+.product-list h3 {
+  margin: 0;
+}
+
+.product-list p {
+  margin: 5px 0;
+}
+
+.product-list span {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #aac9c9;
+}
+
+.add-product-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(252, 252, 252);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.add-product-button::before {
+  content: "+";
+  position: absolute;
+  left: 50%;
+}
+
+.add-product-button:hover {
+  background-color: rgb(114, 115, 114);
+}
